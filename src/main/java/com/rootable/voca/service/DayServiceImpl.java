@@ -1,6 +1,5 @@
 package com.rootable.voca.service;
 
-import com.rootable.voca.domain.Day;
 import com.rootable.voca.dto.DayDto;
 import com.rootable.voca.repository.DayRepository;
 import lombok.RequiredArgsConstructor;
