@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: voca
+  datasource:
+    url: ENC(wJ4ixXyAtO3O9/q7xtziK4IvzA4Vd0VtWZDjZQTpE6air34UV5yLZ0F7m93NVRmYS3uwXu779XF0VNWCa6Q5s7XP0zQshrfZpMb7B3Bpnfo=)
+    username: ENC(cPIU0pB+psPubHP+pFWm5Fjn8H5/VzkRiMj4JvNSjj1Z9eRirA42E+mZKgGPdXMb)
+    password: ENC(OH5EGLt6QHGpvX6V9tLtR7aBl9aztc9PlSNPeYbngoArz4jjtCcDoMZQ8kF7vO/9)
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+
+jasypt:
+  encryptor:
+    bean: jasyptEncryptorAES
